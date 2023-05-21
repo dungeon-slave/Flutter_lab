@@ -4,7 +4,7 @@ void main(List<String> args) {
 
 int getCoinsCount(List<int> coins, int amount)
 {
-    if (!checkConstrains(coins, amount)) {
+    if (!checkConstraints(coins, amount)) {
         return -1;
     }
 
@@ -31,7 +31,7 @@ int getCoinsCount(List<int> coins, int amount)
     return coinsCount;
 }
 
-bool checkConstrains(List<int> coins, int amount)
+bool checkConstraints(List<int> coins, int amount)
 {
     if ((amount >= 0 && amount <= 104) && (coins.length >= 1 && coins.length <= 12)) 
     {

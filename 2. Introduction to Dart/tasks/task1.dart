@@ -8,11 +8,11 @@ int getCoinsCount(List<int> coins, int amount)
         return -1;
     }
 
-    int coinsCount = 0;
+    var coinsCount = 0;
     coins.sort();
 
     do {
-        int currAmount = amount;
+        var currAmount = amount;
 
         for (var i = coins.length - 1; i >= 0; i--) {
             currAmount = amount - coins[i];

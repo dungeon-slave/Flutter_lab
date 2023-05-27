@@ -1,7 +1,7 @@
 //import 'classA.dart';
 
 void main(List<String> args) {
-    print(getIncreasingSubsequence([7, 7, 7, 7, 7, 7, 7]));
+    print(getIncreasingSubsequence([0, 1, 0, 3, 2, 3]));
 }
 
 int getIncreasingSubsequence(List<int> sequence)
@@ -30,7 +30,13 @@ int getIncreasingSubsequence(List<int> sequence)
             else {
                 if (currElement > longerPart[0]) {
                     longerPart.add(currElement);
-                    subSequence.removeLast();
+                    if (subSequence[0] > longerPart[1]) {
+                        subSequence.clear();
+                    }
+                    else
+                    {
+                        subSequence.removeLast();
+                    }
                     subSequence.addAll(longerPart);
                     longerPart.clear();
                 }

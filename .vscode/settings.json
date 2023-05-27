@@ -1,0 +1,27 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "[!3]*/**": true,
+        "3[!.]*/**": true,
+        "3.[! ]*/**": true,
+        "3. [!D]*/**": true,
+        "3. D[!i]*/**": true,
+        "3. Di[!v]*/**": true,
+        "3. Div[!e]*/**": true,
+        "3. Dive[! ]*/**": true,
+        "3. Dive [!i]*/**": true,
+        "3. Dive i[!n]*/**": true,
+        "3. Dive in[!t]*/**": true,
+        "3. Dive int[!o]*/**": true,
+        "3. Dive into[! ]*/**": true,
+        "3. Dive into [!D]*/**": true,
+        "3. Dive into D[!a]*/**": true,
+        "3. Dive into Da[!r]*/**": true,
+        "3. Dive into Dar[!t]*/**": true
+    }
+}

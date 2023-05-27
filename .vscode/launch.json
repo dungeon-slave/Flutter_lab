@@ -7,8 +7,8 @@
         {
             "name": "Dart & Flutter",
             "request": "launch",
-            "type": "dart", 
-            "program": "test.dart"
+            "type": "dart",
+            "program": "./3. Dive into Dart/test.dart"
         }
     ]
 }
